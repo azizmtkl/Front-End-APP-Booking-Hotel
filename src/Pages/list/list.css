@@ -1,0 +1,95 @@
+.list{
+    padding: 4rem 2rem;
+    max-width: 109 0px;
+}
+.listContainer{
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.list_wrapper{
+    width: 100%;
+    max-width: 1200px;
+    display: flex; 
+    gap: 20px ;
+}
+
+.list_search{
+    flex: 1; 
+    background-color: #f39c12;
+    border-radius: var(--primary-border-radius);
+    padding: 2rem 1rem;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.list_search h1{
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+
+}
+
+.list_item{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    gap: 0.5rem;
+    position: relative;
+}
+
+
+
+.list_item .list_text{
+
+    background-color: white;
+    padding: 10px 1rem;
+    border-radius: 5px;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.list_item input{
+    padding: 10px 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+.list_result{
+    flex: 3;
+}
+
+.list_option{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_option input{
+    width: 70px;
+    padding: 4px 10px;
+    outline: none;
+    border: none;
+}
+.btn-search{
+    width: 100%;
+    margin-top: 2rem;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--primary-color);
+    font-size: 1rem;
+}
+
+
+.date1{
+    position: absolute;
+    top: 75px;
+}
+

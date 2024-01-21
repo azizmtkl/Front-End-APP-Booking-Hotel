@@ -1,0 +1,179 @@
+.header{
+    background-color: var(--primary-color);
+    padding: 1rem 3rem;
+    position: relative;
+}
+
+.headerList{
+    display: flex;
+    gap: 0.5rem;
+    color: white;
+    transform: translateX(2rem);
+    
+}
+.headerItemList{
+    text-align: center;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    padding: 5px 1rem;
+    transition: 0.2s;
+    margin-bottom: 4rem;
+    
+}
+
+.headerItemList.active{
+    border: 1px solid white;    
+    border-radius: var(--primary-border-radius);
+    background-color: #40739e;
+}
+.headerItemList:hover{
+    border-radius: var(--primary-border-radius);
+    background-color: #40739e;
+}
+
+
+.headerItemList i{
+    padding-right: 0.5rem;
+    font-size: 1.1rem;
+ }
+
+ .headerItemList span{
+    font-size: 0.8rem;
+    font-weight: 400;
+ }
+
+ .headerTitle{
+
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    margin-bottom: 1rem;
+
+ }
+
+ .headerDesc{
+    color: white;
+    margin-top: 0;
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+ }
+
+ .headerBtn{
+    background-color: #2980b9;
+    outline: none;
+    border: none;
+    border-radius: var(--primary-border-radius);
+    color: white;
+    padding: 0.7rem 1.5rem;
+    margin-bottom: 6rem;
+}
+
+.headerSearch{
+    display: flex;
+    margin: auto;
+    max-width: 1000px;
+    width: 100%;
+    justify-content: space-around;
+    background-color: white;
+    padding: 7px 1.5rem;
+    gap: 3rem;
+    border-radius: var(--primary-border-radius);
+    border: 4px solid #f0932b;
+    position: absolute;
+    bottom: -35px;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 4;
+    align-items: center;
+}
+
+
+
+.headerSearchItem i{
+    font-size: 1.4rem;
+    color: rgb(173, 171, 171);
+        padding-right: 1rem;
+}
+.headerSearchItem .headerSearchText{
+    font-size: 0.8rem;
+    color: rgb(173, 171, 171);
+    font-weight: 400;
+}
+
+.headerSearchItem input{
+    border: none;
+}
+
+.headerSearchItem input:focus{
+    border: none;
+    outline: none;
+}
+
+.headerSearch .headerSearchBtn{
+
+    font-size: 0.9rem;  
+    background-color: var(--primary-color);
+    border-radius: var(--primary-border-radius);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 1rem;
+    scale: 1;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.headerSearch button:hover{
+    background-color: #2980b9;
+}
+
+
+.date  {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 350px;
+}
+
+.options{
+    border: 1px solid lightgray;
+    padding: 10px 1rem;
+    position: absolute;
+    top: 60px;
+    background-color: white;
+    box-shadow: var(--primary-box-shadow);
+}
+.option_item{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-bottom: 1rem;
+}
+
+.option_count{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.option_item button{
+    background-color: #3498db;
+    padding: 2px 10px;
+}
+
+option_counter_button:disabled{
+    cursor: not-allowed !important;
+}
+
+
+.list_mode{
+    padding-bottom: 4rem;
+}
+
+

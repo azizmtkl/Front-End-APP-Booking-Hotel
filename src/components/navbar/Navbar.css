@@ -1,0 +1,35 @@
+.navbar{
+    background-color: var(--primary-color);
+    padding: 1rem 3rem;
+}
+
+.navContainer{
+    justify-content: space-between;
+    display: flex;
+     width: 100%;
+     color: white;
+     align-items: center;
+}
+ .logo{
+    font-weight: 700;
+    font-size: 1.4rem;
+    cursor: pointer;
+ }
+
+ .navbar button{
+    background-color: white;
+    outline: none;
+    border: 1px solid #2980b9;
+    font-size: 0.8rem;
+    color: #2980b9;
+    padding: 0.5rem 1rem;
+    border-radius: var(--primary-border-radius);
+    transition: 0.4;
+    font-weight: 600;
+    margin-left: 1rem;
+    cursor: pointer;
+ }
+ .navbar button:hover{
+    background-color: #ecf0f1;
+ }
+

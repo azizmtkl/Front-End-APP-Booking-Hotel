@@ -1,0 +1,44 @@
+.featured{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
+.featuredcard{
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+.featured img{
+   width: 100%;
+   max-width: 400px;
+   border-radius: var(--primary-border-radius);
+
+}
+
+.featured img:hover{
+    opacity: 0.8;
+ 
+ }
+
+
+.featuredContent{
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+}
+
+.featured h4 {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.featured p{
+    color: white;
+}
